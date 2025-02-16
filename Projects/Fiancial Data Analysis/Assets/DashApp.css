@@ -1,0 +1,133 @@
+body {
+    background-color: black;
+}
+
+.Dropdowns .Select-control {
+    background-color: gray;
+    color: black;
+}
+
+.Dropdowns .Select-menu-outer {
+    background-color: gray;   
+}
+
+.Dropdowns .Select-option {
+    background-color: lightgray;
+    color: black;
+}
+
+.Dropdowns .Select-option.is-focused {
+    background-color: darkgray;
+}
+
+.Headings {
+    font-family: Garamond, serif;
+    color: #51a1ff;
+}
+
+.containers {
+    border: 0.4vh solid white;
+    border-radius: 1vh;
+}
+
+.graphs {
+    height: 15rem;
+}
+
+.scatter_height {
+    height: 30.25rem;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+    .Dropdowns {
+        width: 14vw;
+        left: 9vw;
+    }
+    .slider_positioning{
+        height: 15rem;
+    }
+    .slider_div{
+        position: relative;
+    }
+    .dynamic_slider{
+        height: 15rem;
+        margin-top: 0.25rem;
+    }
+    .slider_dropdown {
+        position: absolute;
+        top: 1.3rem;
+        left: 24rem;
+    }
+    .dynamic_bar_graph{
+        height: 30rem;
+        margin-top: 0.25rem;
+        margin-left: 0.1rem;
+        margin-bottom: 0.25rem;
+    }
+    .dynamic_bar_graph_menu{
+        position: absolute;
+        top: 2.7rem;
+        left: 71rem;
+    }
+    .approval_pie_chart {
+        width: 20.9rem;
+        height: 14.75rem;
+        margin-top: -15rem;
+        margin-bottom: 0.25rem;
+    }
+    .credit_pie_chart {
+        width: 20.8rem;
+        height: 14.75rem;
+        margin-top: -15rem;
+        margin-bottom: 0.25rem;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .Dropdowns {
+        position: relative;
+        width: 10vw;
+        left: 11vw;
+    }
+    .slider_positioning {
+        width: 59.25rem;
+        height: 20rem;
+    }
+    .dynamic_slider{
+        width: 59.25rem;
+        height: 20rem;
+        margin-top: 0.25rem;
+    }
+    .slider_dropdown {
+        position: absolute;
+        margin-top: 3.2vh;
+        margin-left: 8vw
+    }
+    .dynamic_bar_graph{
+        height: 40rem;
+        width: 59.25rem;
+        margin-top: 0.25rem;
+        margin-left: 0.1rem;
+    }
+    .dynamic_bar_graph_menu{
+        position: absolute;
+        top: 4rem;
+        left: 98rem;
+    }
+    .slider_div {
+        position: relative;
+    }
+    .approval_pie_chart {
+        width: 29.47rem;
+        height: 19.68rem;
+        margin-top: -19.7rem;
+    }
+    .credit_pie_chart {
+        width: 29.47rem;
+        height: 19.68rem;
+        margin-top: -19.7rem;
+    }
+    .term_graphs{
+        margin-top: 0.25rem;
+    }
+}

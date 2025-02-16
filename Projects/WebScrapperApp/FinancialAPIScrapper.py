@@ -17,7 +17,7 @@ to_date = input('Please enter a end date for which to scape news from, use yyyy-
 #prepping urls and APIs
 stock_news = requests.get(f'https://www.alphavantage.co/query?function=NEWS_SENTIMENT&tickers={symbol}&apikey=KLYIA9KV3ARAL5BB').json()
 yahoo_url = f'https://finance.yahoo.com/quote/{symbol.upper()}'
-newsapi = NewsApiClient(api_key='8f3dc4803c8d4a87bf7a7da5504554a7')
+newsapi = NewsApiClient(api_key='ENTER YOUR API KEY HERE.')
 
 #Company name lookup
 name_string = (
